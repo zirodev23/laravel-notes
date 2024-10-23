@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/notes', [NoteController::class, 'index']);
+Route::get('/notes/create', [NoteController::class, 'create']);

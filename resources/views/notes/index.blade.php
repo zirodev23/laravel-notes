@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1>All notes</h1>
+    <a href="/notes/create">Create note</a>
+
     <ul>
         @foreach($allNotes as $note)
             <li>
